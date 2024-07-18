@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: black; */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/** shared styles starts here */
+.display-flex {
+  display: flex;
+}
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-1 {
+  width: 14rem;
+  height: 3.375rem;
+  border-radius: 2.6rem;
+  border: none;
+  background-color: #e6533c;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2.125rem;
+  cursor: pointer;
+}
+
+/** shared styles ends here */
+
+/** header style starts here  */
+.header {
+  background: linear-gradient(rgb(17, 17, 17), rgba(9, 9, 9, 1) 100%);
+  width: 100%;
+  height: 40.75rem;
+  /* border: 3px solid red; */
+}
+
+/** navbar style starts here  */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 3rem;
+  margin: 0 auto;
+  padding: 1.83rem 0;
+  /* border: 3px solid tomato; */
+}
+.nav-items {
+  gap: 3rem;
+  width: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.101);
+  border-radius: 2.6rem;
+  padding: 1rem 0rem;
+}
+.navbar h1 {
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items a {
+  text-decoration: none;
+  padding-right: 1.5rem;
+  font-size: 1.12rem;
+  font-weight: 400;
+  color: white;
+
+  /* border: 2px solid green; */
+}
+.nav-home {
+  font-weight: 600;
+  background-color: #e6533c;
+  padding: 1rem 2rem;
+  border-radius: 2.6rem;
+}
+
+/** navbar style ends here  */
+/** banner section starts here  */
+
+.banner {
+  width: 70%;
+  height: 31rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: start;
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+}
+.banner-text {
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid green; */
+  /* gap: 2rem; */
+}
+.banner-text h1 {
+  font-size: 4.875rem;
+  font-weight: 900;
+  color: white;
+}
+.banner-span {
+  font-family: "Miama", sans-serif;
+  font-weight: 400;
+  font-size: 4.875rem;
+}
+
+.banner-image {
+  height: 100%;
+  position: relative;
+  /* border: 2px solid red; */
+}
+.free-workout {
+  position: absolute;
+  top: 18%;
+  left: 62%;
+  width: 11.06rem;
+  height: 5.125rem;
+  color: white;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  backdrop-filter: blur(20px);
+  border-radius: 0.8rem;
+  /* z-index: 1; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.free-workout h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.video-tutorial {
+  position: absolute;
+  top: 70%;
+  left: -40%;
+  width: 11.06rem;
+  height: 5.125rem;
+  color: white;
+  text-align: left;
+  padding-left: 1rem;
+  /* padding-top: 1rem; */
+  backdrop-filter: blur(20px);
+  border-radius: 0.8rem;
+  align-items: center;
+  /* z-index: 1; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(48, 48, 48, 0.54);
+}
+.video-tutorial h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.red-dot {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+  margin-right: 1rem;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  /* border: 3px solid tomato; */
+}
+.btn-2 {
+  width: 14rem;
+  height: 3.375rem;
+  border-radius: 2.6rem;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.101);
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2.125rem;
+  margin-left: 1.125rem;
+  cursor: pointer;
+}
+
+/** banner section ends here  */
+
+/** habit section starts here  */
+.habit-container {
+  background-color: black;
+  width: 100%;
+  height: 40.75rem;
+}
+.text-part {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+}
+.text-part h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 5.5rem;
+  margin-bottom: 1.12rem;
+}
+
+.card-part {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 70%;
+  height: 3.5rem;
+  margin: 3.5rem auto;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  text-align: center;
+  gap: 1rem;
+}
+.card-1 img,
+.card-2 img,
+.card-3 img,
+.card-4 img {
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.card-part h1 {
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+/** habit section ends here  */
