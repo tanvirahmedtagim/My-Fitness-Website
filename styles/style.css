@@ -107,6 +107,8 @@ p {
   font-family: "Miama", sans-serif;
   font-weight: 400;
   font-size: 4.875rem;
+  color: white;
+  /* padding-right: 2rem; */
 }
 
 .banner-image {
@@ -232,3 +234,57 @@ p {
   margin-bottom: 1rem;
 }
 /** habit section ends here  */
+
+/**running section starts here  */
+.running-container {
+  background-color: black;
+  width: 100%;
+  height: 25.75rem;
+  /* border: 3px solid red; */
+}
+.running {
+  width: 70%;
+  height: 20.25rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.916);
+  margin: 0 auto;
+  border-radius: 2rem;
+  /* border: 1px solid khaki; */
+}
+.left-side {
+  width: 27.7rem;
+  height: 18.125rem;
+  margin-left: 1rem;
+  /* border: 2px solid darkblue; */
+}
+.left-side h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.left-side p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.right-side {
+  width: 22.875rem;
+  height: 19.5rem;
+  background-image: url("../images/run.jpg");
+  background-repeat: no-repeat;
+  background-position: 68% 30%;
+  border-radius: 2rem;
+  /* border: 2px solid darkblue; */
+}
+/* .right-side img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+} */
+/**running section starts here  */
+
+
