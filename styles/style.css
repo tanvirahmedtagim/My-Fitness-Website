@@ -198,12 +198,13 @@ p {
   text-align: center;
   width: 45%;
   margin: 0 auto;
+  padding-top: 5.5rem;
 }
 .text-part h1 {
   color: white;
   font-size: 3rem;
   font-weight: 900;
-  margin-top: 5.5rem;
+
   margin-bottom: 1.12rem;
 }
 
@@ -287,4 +288,62 @@ p {
 } */
 /**running section starts here  */
 
+/** meet our team section start  */
 
+.meet-container {
+  background-color: black;
+  width: 100%;
+  height: 56.875rem;
+  /* border: 2px solid red; */
+}
+
+.meet-section {
+  margin: 0 auto;
+  /* border: 3px solid saddlebrown; */
+}
+.text-part {
+  width: 45%;
+  margin: 0 auto;
+}
+.image-part {
+  width: 70%;
+  height: 37.75rem;
+  padding-top: 0.2rem;
+  margin: 3rem auto;
+  border-radius: 1.125rem;
+  background: rgba(255, 255, 255, 0.1);
+  /* border: 2px solid green; */
+}
+.row-1,
+.row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 1.25rem;
+}
+.image-part img {
+  width: 100%;
+  height: 17rem;
+  border-radius: 1rem;
+  filter: brightness(70%);
+}
+.country-area {
+  position: relative;
+}
+.country-area h1 {
+  color: white;
+  margin-bottom: 0.3rem;
+}
+.text {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+/** meet our team section end  */
+
+/** footer section stars here */
+
+
+
+/** footer section ends here  */
