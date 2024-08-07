@@ -343,7 +343,51 @@ p {
 /** meet our team section end  */
 
 /** footer section stars here */
-
-
-
+.footer-container {
+  width: 100%;
+  height: 30.5625rem;
+  padding-top: 4.125rem;
+  /* border: 2px solid red; */
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.footer {
+  width: 70%;
+  height: 15.5625rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* margin-top: 4.125rem; */
+  /* border: 2px solid rgb(155, 146, 43); */
+}
+#hr {
+  width: 70%;
+  margin: 4.125rem auto;
+}
+.footer-p {
+  text-align: center;
+  margin: 2.125rem 0;
+}
+.footer .first h1 {
+  color: rgb(230, 83, 60);
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.footer .first {
+  width: 33%;
+}
+.footer .second p,
+.third p {
+  margin-top: 2rem;
+}
+.footer .second h1,
+.third h1 {
+  color: white;
+}
 /** footer section ends here  */
+
+
+
+/** media query starts here  */
+@media screen and (max-width:576px){
+  
+}
