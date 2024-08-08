@@ -15,7 +15,8 @@ body {
 p {
   color: rgba(255, 255, 255, 0.5);
 }
-.btn-1 {
+.btn-1,
+.btn-3 {
   width: 14rem;
   height: 3.375rem;
   border-radius: 2.6rem;
@@ -27,6 +28,9 @@ p {
   margin-top: 2.125rem;
   cursor: pointer;
 }
+.btn-3 {
+  display: none;
+}
 
 /** shared styles ends here */
 
@@ -34,7 +38,6 @@ p {
 .header {
   background: linear-gradient(rgb(17, 17, 17), rgba(9, 9, 9, 1) 100%);
   width: 100%;
-  height: 40.75rem;
   /* border: 3px solid red; */
 }
 
@@ -43,7 +46,6 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 70%;
-  height: 3rem;
   margin: 0 auto;
   padding: 1.83rem 0;
   /* border: 3px solid tomato; */
@@ -59,6 +61,9 @@ p {
   color: rgb(230, 83, 60);
   font-size: 2.25rem;
   font-weight: 800;
+}
+.ham-burger {
+  display: none;
 }
 .nav-items li {
   list-style: none;
@@ -84,7 +89,6 @@ p {
 
 .banner {
   width: 70%;
-  height: 31rem;
   margin: 0 auto;
   justify-content: space-between;
   align-items: start;
@@ -93,7 +97,6 @@ p {
 }
 .banner-text {
   flex-direction: column;
-  height: 100%;
   width: 50%;
   /* border: 2px solid green; */
   /* gap: 2rem; */
@@ -112,7 +115,7 @@ p {
 }
 
 .banner-image {
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   /* border: 2px solid red; */
 }
@@ -189,7 +192,7 @@ p {
 .habit-container {
   background-color: black;
   width: 100%;
-  height: 40.75rem;
+  /* border: 1px solid greenyellow; */
 }
 .text-part {
   flex-direction: column;
@@ -211,16 +214,21 @@ p {
 .card-part {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  /* justify-content: space-between; */
   width: 70%;
-  height: 3.5rem;
-  margin: 3.5rem auto;
+  margin: 0 auto;
+  padding: 3.5rem 0rem;
+  /* border: 2px solid blue; */
+  /* padding: 0 2.5rem; */
 }
 .card-1,
 .card-2,
 .card-3,
 .card-4 {
   text-align: center;
-  gap: 1rem;
+  /* margin: 0rem 1.125rem; */
+  width: 14.4375rem;
+  /* border: 1px solid red; */
 }
 .card-1 img,
 .card-2 img,
@@ -231,8 +239,14 @@ p {
 }
 .card-part h1 {
   color: white;
-  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+.card-part p {
+  font-size: 0.875rem;
+  font-weight: 400;
 }
 /** habit section ends here  */
 
@@ -240,12 +254,10 @@ p {
 .running-container {
   background-color: black;
   width: 100%;
-  height: 25.75rem;
-  /* border: 3px solid red; */
+  /* border: 3px solid rebeccapurple; */
 }
 .running {
   width: 70%;
-  height: 20.25rem;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
@@ -256,8 +268,7 @@ p {
   /* border: 1px solid khaki; */
 }
 .left-side {
-  width: 27.7rem;
-  height: 18.125rem;
+  width: 40%;
   margin-left: 1rem;
   /* border: 2px solid darkblue; */
 }
@@ -273,7 +284,7 @@ p {
   line-height: 1.5rem;
 }
 .right-side {
-  width: 22.875rem;
+  width: 40%;
   height: 19.5rem;
   background-image: url("../images/run.jpg");
   background-repeat: no-repeat;
@@ -286,30 +297,30 @@ p {
   height: 100%;
   border-radius: 2rem;
 } */
-/**running section starts here  */
+/**running section ends here  */
 
 /** meet our team section start  */
 
 .meet-container {
   background-color: black;
   width: 100%;
-  height: 56.875rem;
-  /* border: 2px solid red; */
+  /* border: 2px solid royalblue; */
 }
 
 .meet-section {
   margin: 0 auto;
+  padding-bottom: 5.5rem;
   /* border: 3px solid saddlebrown; */
 }
 .text-part {
   width: 45%;
-  margin: 0 auto;
+  padding-bottom: 3.625rem;
 }
 .image-part {
   width: 70%;
-  height: 37.75rem;
   padding-top: 0.2rem;
-  margin: 3rem auto;
+  padding-bottom: 0.1rem;
+  margin: 0 auto;
   border-radius: 1.125rem;
   background: rgba(255, 255, 255, 0.1);
   /* border: 2px solid green; */
@@ -317,8 +328,8 @@ p {
 .row-1,
 .row-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
   margin: 1.25rem;
 }
 .image-part img {
@@ -345,14 +356,12 @@ p {
 /** footer section stars here */
 .footer-container {
   width: 100%;
-  height: 30.5625rem;
   padding-top: 4.125rem;
-  /* border: 2px solid red; */
+  /* border: 2px solid palevioletred; */
   background-color: rgba(0, 0, 0, 0.88);
 }
 .footer {
   width: 70%;
-  height: 15.5625rem;
   margin: 0 auto;
   justify-content: space-between;
   /* margin-top: 4.125rem; */
@@ -364,7 +373,8 @@ p {
 }
 .footer-p {
   text-align: center;
-  margin: 2.125rem 0;
+  /* margin: 2.125rem 0; */
+  padding: 2.125rem 0;
 }
 .footer .first h1 {
   color: rgb(230, 83, 60);
@@ -385,9 +395,200 @@ p {
 }
 /** footer section ends here  */
 
-
-
 /** media query starts here  */
-@media screen and (max-width:576px){
-  
+@media screen and (max-width: 576px) {
+  /** navbar section starts here  */
+  .navbar {
+    justify-content: space-between;
+    width: 90%;
+    padding: 3rem 0;
+  }
+
+  .nav-items {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+  }
+  /** navbar section ends here  */
+  /** banner section starts here  */
+
+  .banner {
+    width: 90%;
+    /* margin: 3rem 1.25rem; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 3rem;
+    /* border: 1px solid yellow; */
+    /* margin-bottom: 3rem; */
+  }
+  .banner-text {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .banner-text h1 {
+    font-size: 2.125rem;
+    width: 14.8125rem;
+    padding-right: 3rem;
+    margin-bottom: 1.875rem;
+    /* border: 2px solid green; */
+  }
+  .banner-span {
+    font-family: "Miama", sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+  }
+  .btn-3 {
+    display: inline;
+  }
+  .btn-1 {
+    display: none;
+  }
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn .btn-2,
+  .btn .btn-3 {
+    width: 48%;
+    margin: 1rem 0;
+  }
+  .free-workout {
+    top: 10%;
+    left: 50%;
+    width: 8.5rem;
+    height: 4.625rem;
+  }
+  .free-workout p {
+    font-size: 0.8125rem;
+    font-weight: 400;
+  }
+  .video-tutorial {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 9.6875rem;
+    height: 4.5rem;
+  }
+  .video-tutorial h1 {
+    font-size: 1.125rem;
+    font-weight: 900;
+  }
+  .red-dot {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-right: 1rem;
+  }
+  .banner-image {
+    height: 100%;
+    position: relative;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  /** banner section ends here  */
+
+  /** habit section starts here  */
+  .habit-container {
+    background-color: black;
+    width: 100%;
+    /* border: 1px solid greenyellow; */
+  }
+  .text-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0rem;
+  }
+  .text-part h1 {
+    font-size: 2rem;
+    margin-bottom: 1.12rem;
+  }
+
+  .card-part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    padding-bottom: 3.5rem;
+    margin-bottom: 0;
+    gap: 2.5rem;
+    /* border: 1px solid green; */
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
+
+  /** habit section ends here  */
+
+  /** running section starts here  */
+  .running {
+    width: 90%;
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .left-side {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .left-side h1 {
+    font-size: 2rem;
+  }
+  .left-side .btn-1 {
+    width: 100%;
+  }
+  .right-side {
+    margin-top: 3rem;
+    width: 90%;
+    height: 10.5rem;
+    background-size: contain;
+    border-radius: 2rem;
+  }
+
+  /** running section ends here  */
+
+  /** our team section starts here  */
+  .text-part {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
+  .image-part {
+    width: 90%;
+  }
+
+  .row-1,
+  .row-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /** our team section ends here  */
+
+  /** footer section stars here  */
+  .footer {
+    flex-direction: column;
+    width: 90%;
+  }
+  .footer .first {
+    width: 90%;
+  }
+  .footer .second h1,
+  .third h1 {
+    margin-top: 1.25rem;
+  }
+  #hr {
+    width: 90%;
+  }
+  /** footer section ends here  */
 }
