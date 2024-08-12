@@ -142,7 +142,7 @@ p {
 .video-tutorial {
   position: absolute;
   top: 70%;
-  left: -40%;
+  left: -30%;
   width: 11.06rem;
   height: 5.125rem;
   color: white;
@@ -298,6 +298,108 @@ p {
   border-radius: 2rem;
 } */
 /**running section ends here  */
+/** BMI section starts here  */
+
+.BMI-upper {
+  background-color: black;
+}
+
+.BMI-text {
+  width: 43%;
+  margin: 0 auto;
+  padding: 5.5rem 0;
+}
+.BMI-text h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.BMI-text p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.BMI-down {
+  background-color: #222222;
+  width: 100%;
+  padding: 3.25rem;
+}
+.BMI-calculate {
+  width: 74%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.down-left h1,
+.down-right h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+.table {
+  border-collapse: collapse;
+  width: 19.375rem;
+  margin-top: 3.25rem;
+}
+td,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: 1rem;
+  text-align: left;
+  height: 2.7rem;
+}
+th {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+td {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.down-right {
+  width: 50%;
+  /* border: 2px solid green; */
+}
+.down-right p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 0.8rem;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.125rem;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+input[type="text"] {
+  width: 45%;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+input[type="text"],.sex,.activity {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.sex{
+  width: 48%;
+}
+.activity{
+  width: 98.5%;
+}
+select > option {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/** BMI section ends here  */
 
 /** meet our team section start  */
 
@@ -408,7 +510,7 @@ p {
     display: none;
   }
   .ham-burger {
-    display: block;
+    display: inline;
   }
   /** navbar section ends here  */
   /** banner section starts here  */
@@ -443,7 +545,7 @@ p {
   .btn-3 {
     display: inline;
   }
-  .btn-1 {
+  .banner .btn-1 {
     display: none;
   }
   .btn {
@@ -458,7 +560,7 @@ p {
   }
   .free-workout {
     top: 10%;
-    left: 50%;
+    left: 52.2%;
     width: 8.5rem;
     height: 4.625rem;
   }
@@ -537,6 +639,11 @@ p {
     width: 90%;
     flex-direction: column;
     padding: 2rem 0;
+    border: none;
+    /* padding-bottom: 2rem; */
+  }
+  .running .btn-1 {
+    margin-bottom: 3rem;
   }
 
   .left-side {
@@ -548,17 +655,65 @@ p {
   }
   .left-side .btn-1 {
     width: 100%;
+    margin: 1.5rem auto;
   }
   .right-side {
-    margin-top: 3rem;
     width: 90%;
     height: 10.5rem;
-    background-size: contain;
+    background-size: cover;
     border-radius: 2rem;
   }
 
   /** running section ends here  */
+  /** BMI section starts here  */
+  .BMI-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .BMI-text h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+  }
 
+  .BMI-calculate {
+    width: 90%;
+    flex-direction: column;
+  }
+  .BMI-down {
+    padding: 0rem;
+  }
+  .BMI-text {
+    padding: 2rem 0rem;
+  }
+  .down-left h1,
+  .down-right h1 {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+  }
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1.4375rem;
+  }
+  .down-right {
+    width: 100%;
+  }
+  .sex {
+    width: 47%;
+  }
+  select {
+    width: 94%;
+  }
+  input[type="text"]
+  {
+width: 43%;
+  }
+  .down-right {
+    padding-bottom: 2.625rem;
+  }
+
+  /** BMI section ends here  */
   /** our team section starts here  */
   .text-part {
     padding-top: 3rem;
