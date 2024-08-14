@@ -457,6 +457,102 @@ input[type="text"],
 }
 
 /** meet our team section end  */
+/** services section starts here  */
+.services {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 5.5rem;
+}
+.services-text {
+  width: 45%;
+  margin: 0 auto;
+  padding-bottom: 3.625rem;
+}
+.services-text h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.services-text p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.services-cards {
+  width: 70%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
+  margin: 0 auto;
+  border-radius: 1.125rem;
+  background: black;
+}
+.services-row-1,
+.services-row-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 1.25rem;
+}
+.services-cards h2,
+.services-cards p,
+.services-cards .service-image {
+  padding: 0.8rem 0.8rem 0 0.8rem;
+}
+.services-cards h2 {
+  color: rgba(255, 255, 255, 0.892);
+}
+.services-row-1 .anc,
+.services-row-2 .anc {
+  padding: 0.8rem;
+}
+.services-row-1 .anc a,
+.services-row-2 .anc a {
+  color: rgba(232, 230, 230, 0.9);
+}
+.services-cards p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.service-card-1,
+.service-card-2,
+.service-card-3,
+.service-card-4,
+.service-card-5,
+.service-card-6 {
+  width: 100%;
+  height: 17rem;
+  background: linear-gradient(
+    to bottom right,
+    rgba(120, 120, 255, 0),
+    rgba(120, 200, 255, 0.5)
+  );
+  border-radius: 1rem;
+  /* padding: 0.8rem; */
+  /* text-align: center; */
+}
+.service-image {
+  width: 4rem;
+  height: 4rem;
+  /* border: 2px solid green; */
+}
+.service-card-1 img,
+.service-card-2 img,
+.service-card-3 img,
+.service-card-4 img,
+.service-card-5 img,
+.service-card-6 img {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(227, 208, 208);
+  border-radius: 0.6rem;
+  /* border: 2px solid white; */
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(85, 72, 72);
+}
+
+/** services section ends here  */
 
 /** footer section stars here */
 .footer-container {
@@ -728,6 +824,13 @@ input[type="text"],
     padding-top: 3rem;
     padding-bottom: 0rem;
   }
+  .text-part h1 {
+    font-size: 2rem;
+  }
+  .text-part p {
+    font-size: 0.8rem;
+    padding-bottom: 2.125rem;
+  }
   .image-part {
     width: 90%;
   }
@@ -738,6 +841,34 @@ input[type="text"],
     grid-template-columns: repeat(1, 1fr);
   }
   /** our team section ends here  */
+  /** service section starts here  */
+  .services-text {
+    width: 90%;
+    padding-bottom: 0rem;
+  }
+
+  .services-text h1 {
+    font-size: 2rem;
+  }
+
+  .services-text p {
+    font-size: 0.8rem;
+    padding-bottom: 2.125rem;
+  }
+  .services-cards h2 {
+    font-size: 1.2rem;
+  }
+  .services-row-1,
+  .services-row-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    margin-bottom: 1.25rem;
+  }
+  .services-cards {
+    width: 90%;
+  }
+  /** service section ends here  */
 
   /** footer section stars here  */
   .footer {
