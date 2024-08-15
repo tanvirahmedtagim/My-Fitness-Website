@@ -443,10 +443,20 @@ input[type="text"],
   border-radius: 1rem;
   filter: brightness(70%);
 }
-.country-area {
+.country-area1,
+.country-area2,
+.country-area3,
+.country-area4,
+.country-area5,
+.country-area6 {
   position: relative;
 }
-.country-area h1 {
+.country-area1 h1,
+.country-area2 h1,
+.country-area3 h1,
+.country-area4 h1,
+.country-area5 h1,
+.country-area6 h1 {
   color: white;
   margin-bottom: 0.3rem;
 }
@@ -820,6 +830,18 @@ input[type="text"],
   }
   /** BMI section ends here  */
   /** our team section starts here  */
+  .country-area2 {
+    order: 1;
+  }
+  .country-area1 {
+    display: none;
+  }
+  .country-area4 {
+    display: none;
+  }
+.country-area3{
+  order: 4;
+}
   .text-part {
     padding-top: 3rem;
     padding-bottom: 0rem;
