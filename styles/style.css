@@ -839,9 +839,7 @@ input[type="text"],
   .country-area4 {
     display: none;
   }
-.country-area3{
-  order: 4;
-}
+
   .text-part {
     padding-top: 3rem;
     padding-bottom: 0rem;
